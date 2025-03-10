@@ -9,6 +9,13 @@
   </head>
 
   <body>
+    <style>
+        .my-custom-row {
+            background-color: rgb(222, 241, 160);
+            height: 400px;
+        }
+
+    </style>
 
     <div class="container"
      <div class="row">
@@ -21,9 +28,15 @@
         <div class="col-sm-6 order-sm-1"> Col two</div>
      </div>
 
-     <div class="row">
+     <div class="row my-custom-row justify-content-center align-items-center">
        <div class="col-sm-4"><div class="p-3 boarder bg-light">Col one</div></div>
        <div class="col-sm-4"><div class="p-3 boarder bg-light">Col two</div></div>
+     </div>
+
+     <div class="row">
+        <div class="col"><button type="button" class="btn btn-primary">Primary</button></div>
+        <div class="col"><button type="button" class="btn btn-primary">secondary</button></div>
+        <div class="col"><button type="button" class="btn btn-primary">danger</button></div>
      </div>
 
      </div> 
